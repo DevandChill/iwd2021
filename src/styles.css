@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  background-color: rgba(240, 57, 133, 0.63);
+  background-image: radial-gradient(circle at center center, rgb(245, 22, 245), rgb(218, 86, 245)),
+      repeating-radial-gradient(
+        circle at center center,
+        #444cf7,
+        #444cf7,
+        20px,
+        transparent 40px,
+        transparent 20px
+      );
+  background-blend-mode: multiply;
+  background-size: 400% 400%;
+  
+}
+
+.rainbow {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 32px;
+  font-family: monospace;
+  letter-spacing: 5px;
+}
+.rainbow_text_animated {
+  background: linear-gradient(
+    to right,
+    #6666ff,
+    #0099ff,
+    #00ff00,
+    #ff3399,
+    #6666ff
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 12s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+#valerie {
+  color: blue;
+  text-transform: uppercase;
+  font-weight: strong;
+  background: linear-gradient(
+    60deg
+    , red, yellow, red, yellow, red);
+        font: 900 1  
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: rgba(36, 4, 4, 0.2);        
+}
+
+
+#andre {
+  color: goldenrod;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  text-align: center;
+  
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

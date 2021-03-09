@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+#teia {
+  font-family: "Kaushan Script", cursive;
+  font-size: 50px;
+}
+
+#teia p {
+  animation: laser linear both;
+}
+
+@keyframes laser {
+  from,
+  30% {
+    clip-path: polygon(-20% 0%, -15% 0%, -15% 100%, -20% 100%);
+  }
+  70%,
+  to {
+    clip-path: polygon(115% 0%, 120% 0%, 120% 100%, 115% 100%);
+  }
+}

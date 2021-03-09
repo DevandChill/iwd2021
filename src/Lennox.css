@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+#lennox {
+  font-family: Comfortaa;
+  font-size: 48px;
+  color: lightsalmon;
+  background-color: white;
+  text-align: center;
+  border: 3px solid burlywood;
+}
+
+.box {
+}

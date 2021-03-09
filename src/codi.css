@@ -1,0 +1,18 @@
+@keyframes blinker {
+  from {
+    background-color: pink;
+    color: purple;
+  }
+  to {
+    background-color: purple;
+    color: pink;
+  }
+}
+
+.codis-class {
+  font-family: "Zilla Slab Highlight", cursive;
+  background-color: pink;
+  color: purple;
+  width: 75%;
+  animation: blinker 3s linear infinite;
+}

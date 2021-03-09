@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+#christina {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 25px;
+  color: #ffffff;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lavender;
+  background-image: radial-gradient(circle at center center, purple, pink),
+    repeating-radial-gradient(
+      circle at center center,
+      #444cf7,
+      #444cf7,
+      20px,
+      transparent 40px,
+      transparent 20px
+    );
+  background-blend-mode: multiply;
+  animation: rotate 15s ease-in-out infinite;
+}
+
+#christina p {
+  text-align: center;
+  line-height: 1em;
+  animation: everything 3.5s ease-in-out infinite;
+}
+
+@keyframes everything {
+  50% {
+    transform: scale(-2, -2) rotate(-180deg);
+  }
+}
+
+@keyframes rotate {
+  0% { {
+    transform: rotateX(0) rotateY(0) rotateZ(0);
+  ;
+  }
+  50% { {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  ;
+  }
+  100% { {
+    transform: rotateX(0) rotateY(0) rotateZ(0);;
+  }
+}
+}
+

@@ -1,0 +1,118 @@
+#hope {
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+}
+
+.face {
+  height: 210px;
+  width: 150px;
+  /* background: rgb(226, 205, 14); */
+  background: #ffdc31;
+  border-radius: 30px 0px 90px 90px;
+  left: 30px;
+  top: -250px;
+  position: relative;
+}
+
+.nose {
+  border-radius: 50px 50px 50px 50px / 150px 150px 50px 50px;
+  width: 30px;
+  height: 75px;
+  left: 60px;
+  top: -40px;
+  position: relative;
+  background: #f0cf2e;
+}
+
+.hair {
+  height: 40px;
+  width: 180px;
+  left: 30px;
+  position: relative;
+  background: black;
+  border-radius: 30px 30px 30px 0px;
+}
+
+.hair-left {
+  height: 250px;
+  width: 100px;
+  position: relative;
+  background: black;
+  top: -20px;
+  border-radius: 30px 30px 30px 10px;
+}
+
+.eyes-left {
+  height: 40px;
+  width: 50px;
+  left: 10px;
+  top: 20px;
+  position: relative;
+  background: white;
+  border-radius: 100%;
+}
+
+.eyes-right {
+  height: 40px;
+  width: 50px;
+  left: 90px;
+  top: -20px;
+  position: relative;
+  background: white;
+  border-radius: 100%;
+}
+
+.u-lip {
+  height: 17px;
+  width: 80px;
+  background: #dfbd16;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.b-lip {
+  height: 19px;
+  width: 80px;
+  background: #e8c517;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.teeth {
+  height: 5px;
+  width: 80px;
+  background: rgba(94, 94, 94, 0.164);
+}
+
+.mouth {
+  left: 35px;
+  top: -25px;
+  position: relative;
+}
+
+.pupil-right,
+.pupil-left {
+  background: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  top: 10px;
+  left: 10px;
+  position: relative;
+  animation: everything 3.5s ease-in-out infinite;
+}
+
+@keyframes everything {
+  50% {
+    left: 0;
+    top: 0;
+  }
+
+  100% {
+    left: 20px;
+    top: 0;
+  }
+}
